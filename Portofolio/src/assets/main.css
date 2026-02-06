@@ -21,6 +21,22 @@ a,
   }
 }
 
+@media (min-width: 1024px) {
+  .icon-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .icon-wrapper svg {
+    width: 64px;
+    height: 64px;
+  }
+}
+
 /* @media (min-width: 1024px) {
   body {
     display: flex;

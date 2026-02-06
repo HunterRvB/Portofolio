@@ -36,6 +36,9 @@
     .img-wrapper {
         margin-top: 2rem;
     }
+    img {
+        width: 80vw;
+    }
 }
 
 /* Desktop/grid layout */
@@ -43,7 +46,7 @@
     .hero-section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
+        align-items: flex-start;
         padding: 4rem 2rem;
         
     }
