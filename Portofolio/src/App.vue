@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from './components/TheWelcome.vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue';
 import AboutSection from './components/AboutSection.vue';
+import PrevouisWork from './components/PrevouisWork.vue';
 </script>
 
 <template>
@@ -13,6 +13,7 @@ import AboutSection from './components/AboutSection.vue';
   <main>
     <HeroSection />
     <AboutSection />
+    <PrevouisWork />
   </main>
 </template>
 
